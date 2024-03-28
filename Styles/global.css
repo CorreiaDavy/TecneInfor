@@ -18,6 +18,7 @@ header{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    position: fixed;
    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.648);
+   z-index: 6;
 
 }
 
@@ -146,6 +147,7 @@ main{
     display: flex;
     justify-content: center;
     margin-top: 100px;
+   
     
 }
 
@@ -183,6 +185,57 @@ main{
     color: blue;
     
 }
+
+/*--------FOOTER-------*/
+
+
+footer{
+    margin-top: 150px;
+    height: 250px;
+    background: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.insta{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+}
+
+.footer_end{
+    display: flex;
+    justify-content: space-between;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+
+
+P{
+    
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.store{
+    display: flex;
+    width: 100px;
+    height: 50px;
+}
+
+footer img{
+    cursor: pointer;
+}
+
+
+
+
+
 
 
 
