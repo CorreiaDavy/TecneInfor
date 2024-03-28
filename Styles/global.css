@@ -17,6 +17,7 @@ header{
     background-color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
    position: fixed;
+   box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.648);
 
 }
 
@@ -128,6 +129,7 @@ text-decoration: overline blue;
 
 main{
     width: 100%;
+    background: #ebebeb;
 }
 
 .mais_vendidos{
@@ -154,8 +156,16 @@ main{
 
 }
 
-.produtosli{
+.produtos li{
     text-decoration: none;
+    cursor: pointer;
+ 
+}
+
+.produtos li:hover{
+    transform: translateY(-5px);
+    transition: all 0.03s;
+   
 }
 
 
@@ -167,6 +177,11 @@ main{
 #prod_one{
     width: 300px;
     height: 300px;
+}
+
+.estrela{
+    color: blue;
+    
 }
 
 
